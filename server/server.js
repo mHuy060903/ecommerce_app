@@ -11,7 +11,7 @@ import shopAddressRouter from "./routes/shop/address-routes.js";
 import shopOrderRouter from "./routes/shop/order-routes.js";
 mongoose
   .connect(
-    "mongodb+srv://huy123456:huy123456@cluster0.mwtex.mongodb.net/ecommerce_app"
+    ""
   )
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.log(err.message));
